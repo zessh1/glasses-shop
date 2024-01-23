@@ -1,0 +1,438 @@
+{
+  "glasses": [
+    {
+      "id": 1,
+      "name": "Elegance Blue Vision",
+      "brand": "EleganceOptic",
+      "price": 149.99,
+      "description": "EleganceOptic glasses exude sophistication and style. Meticulously crafted with attention to detail, these glasses offer a timeless appeal. The collection features a mix of classic and modern frames, combining elegance with cutting-edge design.",
+      "gender": "Unisex",
+      "category": "Eyeglasses",
+      "variations": [
+        {
+          "color": "Blue",
+          "image_url": "https://example.com/elegance_blue_vision_blue.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 50
+        },
+        {
+          "color": "Black",
+          "image_url": "https://example.com/elegance_blue_vision_black.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 30
+        },
+        {
+          "color": "Brown",
+          "image_url": "https://example.com/elegance_blue_vision_brown.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 20
+        }
+      ],
+      "views": 0
+    },
+    {
+      "id": 2,
+      "name": "TechPro ClearView",
+      "brand": "TechVision",
+      "price": 199.0,
+      "description": "For those who appreciate innovation, TechVision glasses seamlessly blend technology and fashion. These smart glasses offer advanced features, such as anti-glare coatings and blue-light filters, ensuring a clear and comfortable vision in the digital age.",
+      "gender": "Unisex",
+      "category": "Eyeglasses",
+      "variations": [
+        {
+          "color": "Silver",
+          "image_url": "https://example.com/techpro_clearview_silver.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 40
+        },
+        {
+          "color": "Black",
+          "image_url": "https://example.com/techpro_clearview_black.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 25
+        },
+        {
+          "color": "Gold",
+          "image_url": "https://example.com/techpro_clearview_gold.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 15
+        }
+      ],
+      "views": 0
+    },
+    {
+      "id": 3,
+      "name": "RetroChic Classic Frames",
+      "brand": "RetroChic",
+      "price": 129.99,
+      "description": "Rediscover timeless style with RetroChic Classic Frames. These glasses offer a vintage-inspired look with modern comfort. Crafted with attention to detail, the collection features classic shapes and versatile color options.",
+      "gender": "Unisex",
+      "category": "Eyeglasses",
+      "variations": [
+        {
+          "color": "Tortoiseshell",
+          "image_url": "https://example.com/retrochic_classic_frames_tortoiseshell.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 35
+        },
+        {
+          "color": "Black",
+          "image_url": "https://example.com/retrochic_classic_frames_black.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 20
+        },
+        {
+          "color": "Red",
+          "image_url": "https://example.com/retrochic_classic_frames_red.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 15
+        }
+      ],
+      "views": 0
+    },
+    {
+      "id": 4,
+      "name": "ActivePro Sporty Shades",
+      "brand": "ActivePro",
+      "price": 89.95,
+      "description": "ActivePro Sporty Shades are designed for those who lead an active lifestyle. The collection features lightweight frames, impact-resistant lenses, and vibrant colors. Stay stylish while enjoying your favorite outdoor activities.",
+      "gender": "Unisex",
+      "category": "Sunglasses",
+      "variations": [
+        {
+          "color": "Blue",
+          "image_url": "https://example.com/activepro_sporty_shades_blue.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 30
+        },
+        {
+          "color": "Black",
+          "image_url": "https://example.com/activepro_sporty_shades_black.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 25
+        },
+        {
+          "color": "Orange",
+          "image_url": "https://example.com/activepro_sporty_shades_orange.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 20
+        }
+      ],
+      "views": 0
+    },
+    // Previous entries...
+
+    {
+      "id": 5,
+      "name": "NatureExplorer Sunset Glow",
+      "brand": "NatureLens",
+      "price": 119.99,
+      "description": "Experience the beauty of the outdoors with NatureLens Sunset Glow glasses. Designed for nature lovers, these sunglasses feature polarized lenses and a stylish frame. Enjoy enhanced clarity and protection during your outdoor adventures.",
+      "gender": "Unisex",
+      "category": "Sunglasses",
+      "variations": [
+        {
+          "color": "Orange",
+          "image_url": "https://example.com/natureexplorer_sunset_glow_orange.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 40
+        },
+        {
+          "color": "Green",
+          "image_url": "https://example.com/natureexplorer_sunset_glow_green.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 25
+        },
+        {
+          "color": "Brown",
+          "image_url": "https://example.com/natureexplorer_sunset_glow_brown.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 15
+        }
+      ],
+      "views": 0
+    },
+    {
+      "id": 6,
+      "name": "TrendyVista Cat-Eye Chic",
+      "brand": "TrendyVista",
+      "price": 79.99,
+      "description": "Make a bold statement with TrendyVista Cat-Eye Chic glasses. This collection features stylish cat-eye frames that add a touch of glamour to your look. Choose from a variety of trendy colors to express your unique style.",
+      "gender": "Women",
+      "category": "Eyeglasses",
+      "variations": [
+        {
+          "color": "Red",
+          "image_url": "https://example.com/trendyvista_cat_eye_chic_red.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 30
+        },
+        {
+          "color": "Black",
+          "image_url": "https://example.com/trendyvista_cat_eye_chic_black.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 20
+        },
+        {
+          "color": "Purple",
+          "image_url": "https://example.com/trendyvista_cat_eye_chic_purple.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 15
+        }
+      ],
+      "views": 0
+    },
+    // Previous entries...
+
+    {
+      "id": 7,
+      "name": "UrbanStyle City Lights",
+      "brand": "UrbanSight",
+      "price": 109.95,
+      "description": "Illuminate your style with UrbanSight City Lights glasses. Designed for urban explorers, these sunglasses feature sleek frames and vibrant colors. Enjoy a contemporary look with enhanced eye protection.",
+      "gender": "Unisex",
+      "category": "Sunglasses",
+      "variations": [
+        {
+          "color": "Yellow",
+          "image_url": "https://example.com/urbanstyle_city_lights_yellow.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 35
+        },
+        {
+          "color": "Gray",
+          "image_url": "https://example.com/urbanstyle_city_lights_gray.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 25
+        },
+        {
+          "color": "Blue",
+          "image_url": "https://example.com/urbanstyle_city_lights_blue.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 20
+        }
+      ],
+      "views": 0
+    },
+    {
+      "id": 8,
+      "name": "FashionFusion Modern Elegance",
+      "brand": "FashionFusion",
+      "price": 139.99,
+      "description": "Step into modern elegance with FashionFusion glasses. This collection showcases contemporary frames with a touch of sophistication. Choose from a range of colors to express your unique fashion sense.",
+      "gender": "Unisex",
+      "category": "Eyeglasses",
+      "variations": [
+        {
+          "color": "Rose Gold",
+          "image_url": "https://example.com/fashionfusion_modern_elegance_rose_gold.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 30
+        },
+        {
+          "color": "Silver",
+          "image_url": "https://example.com/fashionfusion_modern_elegance_silver.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 20
+        },
+        {
+          "color": "Teal",
+          "image_url": "https://example.com/fashionfusion_modern_elegance_teal.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 15
+        }
+      ],
+      "views": 0
+    },
+    {
+      "id": 9,
+      "name": "TechPro Gaming Master",
+      "brand": "TechVision",
+      "price": 179.0,
+      "description": "Level up your gaming experience with TechVision Gaming Master glasses. Engineered for comfort and style, these glasses feature blue-light blocking lenses and a design that complements your gaming setup.",
+      "gender": "Unisex",
+      "category": "Eyeglasses",
+      "variations": [
+        {
+          "color": "Black/Red",
+          "image_url": "https://example.com/techpro_gaming_master_black_red.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 40
+        },
+        {
+          "color": "White/Blue",
+          "image_url": "https://example.com/techpro_gaming_master_white_blue.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 25
+        },
+        {
+          "color": "Gray/Green",
+          "image_url": "https://example.com/techpro_gaming_master_gray_green.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 15
+        }
+      ],
+      "views": 0
+    },
+    {
+      "id": 10,
+      "name": "RetroChic Glamorous Nights",
+      "brand": "RetroChic",
+      "price": 119.0,
+      "description": "Transform your nights with RetroChic Glamorous Nights glasses. This collection exudes sophistication with its glamorous frames and striking colors. Elevate your evening look with these stylish glasses.",
+      "gender": "Women",
+      "category": "Eyeglasses",
+      "variations": [
+        {
+          "color": "Gold",
+          "image_url": "https://example.com/retrochic_glamorous_nights_gold.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 30
+        },
+        {
+          "color": "Black",
+          "image_url": "https://example.com/retrochic_glamorous_nights_black.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 20
+        },
+        {
+          "color": "Silver",
+          "image_url": "https://example.com/retrochic_glamorous_nights_silver.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 15
+        }
+      ],
+      "views": 0
+    },
+
+    // Previous entries...
+
+    {
+      "id": 11,
+      "name": "SportFlex Outdoor Explorer",
+      "brand": "SportOptics",
+      "price": 99.99,
+      "description": "Embrace the great outdoors with SportOptics Outdoor Explorer glasses. Designed for active lifestyles, these sunglasses feature flexible frames and impact-resistant lenses. Explore with clarity and style.",
+      "gender": "Unisex",
+      "category": "Sunglasses",
+      "variations": [
+        {
+          "color": "Green",
+          "image_url": "https://example.com/sportflex_outdoor_explorer_green.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 35
+        },
+        {
+          "color": "Black",
+          "image_url": "https://example.com/sportflex_outdoor_explorer_black.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 25
+        },
+        {
+          "color": "Blue",
+          "image_url": "https://example.com/sportflex_outdoor_explorer_blue.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 20
+        }
+      ],
+      "views": 0
+    },
+    {
+      "id": 12,
+      "name": "ChicVogue Cat-Eye Bliss",
+      "brand": "ChicVogue",
+      "price": 129.95,
+      "description": "Indulge in elegance with ChicVogue Cat-Eye Bliss glasses. This collection combines chic cat-eye frames with luxurious colors. Elevate your style with these sophisticated and fashionable glasses.",
+      "gender": "Women",
+      "category": "Eyeglasses",
+      "variations": [
+        {
+          "color": "Pink",
+          "image_url": "https://example.com/chicvogue_cat_eye_bliss_pink.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 30
+        },
+        {
+          "color": "Brown",
+          "image_url": "https://example.com/chicvogue_cat_eye_bliss_brown.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 20
+        },
+        {
+          "color": "Purple",
+          "image_url": "https://example.com/chicvogue_cat_eye_bliss_purple.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 15
+        }
+      ],
+      "views": 0
+    },
+
+    // Previous entries...
+
+    {
+      "id": 13,
+      "name": "SunFlare Retro Aviator",
+      "brand": "SunFlare",
+      "price": 119.0,
+      "description": "Channel the timeless aviator style with SunFlare Retro Aviator glasses. These sunglasses feature classic aviator frames with a modern twist. Make a bold statement with these stylish and iconic shades.",
+      "gender": "Unisex",
+      "category": "Sunglasses",
+      "variations": [
+        {
+          "color": "Gold",
+          "image_url": "https://example.com/sunflare_retro_aviator_gold.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 35
+        },
+        {
+          "color": "Silver",
+          "image_url": "https://example.com/sunflare_retro_aviator_silver.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 25
+        },
+        {
+          "color": "Black",
+          "image_url": "https://example.com/sunflare_retro_aviator_black.jpg",
+          "sizes": ["Medium", "Large"],
+          "quantity": 20
+        }
+      ],
+      "views": 0
+    },
+    {
+      "id": 14,
+      "name": "FashionFusion Geometric Edge",
+      "brand": "FashionFusion",
+      "price": 149.99,
+      "description": "Explore the edge of fashion with FashionFusion Geometric Edge glasses. This collection features bold geometric frames in various colors. Elevate your style with these unique and trend-setting glasses.",
+      "gender": "Unisex",
+      "category": "Eyeglasses",
+      "variations": [
+        {
+          "color": "Blue",
+          "image_url": "https://example.com/fashionfusion_geometric_edge_blue.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 30
+        },
+        {
+          "color": "Red",
+          "image_url": "https://example.com/fashionfusion_geometric_edge_red.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 20
+        },
+        {
+          "color": "Yellow",
+          "image_url": "https://example.com/fashionfusion_geometric_edge_yellow.jpg",
+          "sizes": ["Small", "Medium", "Large"],
+          "quantity": 15
+        }
+      ],
+      "views": 0
+    }
+
+    // Repeat the structure for 4 more pairs of glasses...
+
+    // Repeat the structure for 8 more pairs of glasses...
+  ]
+}
