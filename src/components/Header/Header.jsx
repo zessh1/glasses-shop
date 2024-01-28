@@ -7,26 +7,18 @@ const Header = () => {
     <header className="header">
       <nav className="navigation">
         <ul className="nav-list">
-          <li className="nav-item">
-            <Link to="/" className="nav-link">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/login" className="nav-link">
-              Glasses
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/register" className="nav-link">
-              Profile
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/login" className="nav-link">
-              Cart
-            </Link>
-          </li>
+          <Link to="/" className="nav-link">
+            <li className="nav-item">Home</li>
+          </Link>
+          <Link to="/glasses" className="nav-link">
+            <li className="nav-item">Glasses</li>
+          </Link>
+          <Link to="/Cart" className="nav-link">
+            <li className="nav-item">Cart</li>
+          </Link>
+          <Link to="/login" className="nav-link">
+            <li className="nav-item">Profile</li>
+          </Link>
         </ul>
       </nav>
     </header>

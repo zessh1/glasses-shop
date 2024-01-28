@@ -16,11 +16,12 @@
   display: flex;
 }
 
-.nav-item {
+.nav-link {
   margin: 0 10px;
+  text-decoration: none;
 }
 
-.nav-link {
+.nav-item {
   text-decoration: none;
   color: #fff;
   font-weight: bold;

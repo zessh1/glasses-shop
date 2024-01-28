@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-import "./RegisterForm.css"; // Import your CSS file for styling
+import "./RegisterForm.css";
+import { Link } from "react-router-dom";
 
 const RegisterForm = () => {
-  // State to hold the form data
   const [formData, setFormData] = useState({
     username: "",
     email: "",
     password: "",
   });
 
-  // Event handler for input changes
   const handleInputChange = (e) => {
     const { name, value } = e.target;
     setFormData({
@@ -18,12 +17,9 @@ const RegisterForm = () => {
     });
   };
 
-  // Event handler for form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your logic for handling the form submission (e.g., sending data to the server)
     console.log("Form submitted:", formData);
-    // Reset the form after submission
     setFormData({
       username: "",
       email: "",
@@ -75,6 +71,9 @@ const RegisterForm = () => {
           <button type="submit" className="submit-button">
             Register
           </button>
+          <Link to="/login" className="login-link">
+            Go to Login
+          </Link>
         </div>
       </form>
     </div>

@@ -1,14 +1,15 @@
 import React from "react";
-import "./GlassesCard.css"; // Import your CSS file for styling
+import "./GlassesCard.css";
+import { addToCart } from "../../hooks/addToCart";
 
-const GlassesCard = ({ image, title, price }) => {
+const GlassesCard = ({ data }) => {
   return (
     <div className="glasses-card">
-      <img src={image} alt={title} className="glasses-image" />
-
+      <img src={data.image_url} alt={data.title} className="glasses-image" />
       <div className="glasses-details">
-        <h3 className="glasses-title">{title}</h3>
-        <p className="glasses-price">${price}</p>
+        <h3 className="glasses-title">{data.name}</h3>
+        <p className="glasses-price">${data.price}</p>
+        <button onClick={() => addToCart(data)}>Add to cart</button>
       </div>
     </div>
   );

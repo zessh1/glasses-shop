@@ -1,0 +1,24 @@
+/* MainPage.css */
+
+.main-page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.about-us {
+  margin-top: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+  color: #555;
+}
+
+/* You can add more styles based on your design requirements */

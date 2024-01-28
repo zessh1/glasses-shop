@@ -20,6 +20,8 @@
 
 .form-group {
   margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .form-input {
@@ -43,4 +45,20 @@
 
 .submit-button:hover {
   background-color: #2980b9;
+}
+
+.login-link {
+  margin-top: 20px;
+  background-color: #000000;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.login-link:hover {
+  background-color: #333;
 }
